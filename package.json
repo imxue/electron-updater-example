@@ -1,6 +1,6 @@
 {
   "name": "electron-updater-example",
-  "version": "0.7.5",
+  "version": "0.7.6",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
@@ -26,8 +26,9 @@
     },
     "publish": [
       {
-        "provider": "generic",
-        "url": "https://github.com/imxue/electron-updater-example/releases"
+        "provider": "github",
+         "owner": "imxue",
+         "repo": "electron-updater-example"
       }
     ]
   }
